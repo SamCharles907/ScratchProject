@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Error: Undefined variable: "$primarycolor".\A         on line 3 of C:\Users\samch\Desktop\Scratch project 1\sass\style.scss\A \A 1: $primaycolor: 333;\A 2: .box {\A 3:   background-color: $primarycolor;\A 4:   width: 500px;\A 5:   height: 500px;\A 6:   display: flex;\A 7: }'}

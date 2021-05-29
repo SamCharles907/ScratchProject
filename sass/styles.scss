@@ -1,0 +1,84 @@
+@import "card.scss";
+$primarycolor: #09090a;
+
+.content {
+  color: #09090a;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.carousel-item {
+  img {
+    object-fit: cover;
+  }
+}
+nav {
+  a {
+    color: #09090a !important;
+  }
+}
+
+.box {
+  background-color: $primarycolor;
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+#section1 {
+  padding-top: 50px;
+  height: 500px;
+
+  background: linear-gradient(#01080c, transparent), url(/img/wowloadingbg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+
+  .card {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    img {
+      min-height: 50%;
+      object-fit: cover;
+    }
+  }
+}
+
+#section2 {
+  padding-top: 50px;
+  height: 500px;
+
+  background: linear-gradient(transparent, #01080c), url(/img/wowmap.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section3 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: $primarycolor;
+}
+#section41 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: $primarycolor;
+}
+#section42 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: $primarycolor;
+}
+
+footer {
+  font-size: 1.4rem;
+
+  .footer-navigation {
+    padding-top: 10rem;
+
+    .footer-list {
+      list-style: none;
+    }
+  }
+}
